@@ -55,15 +55,15 @@ openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 36
 
 ### 5. Setup MongoDB URI
 Update your user_authentication.py with your MongoDB URI:
-python
-```
+
+```python
 app.config["MONGODB_SETTINGS"] = {
     "host": "your-mongodb-atlas-uri"
 }
 ```
 ### 6. Run the app
-bash
-```
+
+```bash
 python user_authentication.py
 ```
 Open your browser and go to:
