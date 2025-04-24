@@ -1,0 +1,6 @@
+flask 
+flask-security-too 
+flask-mongoengine
+pymongo
+uuid
+certifi
